@@ -2,7 +2,6 @@ import openai
 
 configuration_message = [{}]
 
-
 class GptApp:
     """
     AI application
