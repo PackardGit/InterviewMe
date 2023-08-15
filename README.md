@@ -12,4 +12,4 @@ https://github.com/PackardGit/InterviewMe/assets/61251655/5d7c2e6d-d16b-4e2e-820
 
 ![HeatExchanger](https://github.com/PackardGit/InterviewMe/assets/61251655/570f1506-7b23-4b2b-afc9-25510ae0f418)
 
-
+*For private reasons folders CV and Images are empty as well as .css file
