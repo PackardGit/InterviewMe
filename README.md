@@ -1,6 +1,7 @@
 # InterviewMe
 
 ## Visit my page: http://adriandratwinski.pythonanywhere.com
+(not tested on mobile devices)
 
 ### My Personal Site with AI assistant with whom You can conduct a virtual interview and more!
 
