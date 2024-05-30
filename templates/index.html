@@ -14,162 +14,33 @@
   </head>
 
   <body>
-    <!-- header design -->
-        <header class="header">
-            <a href="#" class="logo">MySite</a>
+    <header class="header">
+        <a href="#" class="logo">MySite</a>
 
-            <i class="bx bx-menu" id="menu-icon"></i>
+        <i class="bx bx-menu" id="menu-icon"></i>
 
-            <nav class="navbar">
-              <a href="#home" class="active">Home</a>
-              <a href="#chatme">InterviewMe</a>
-              <a href="#services">Services</a>
-              <a href="#portfolio">Portfolio</a>
-              <a href="#contact">Contact</a>
-            </nav>
-        </header>
+        <nav class="navbar">
+          <a>InterviewMe</a>
+        </nav>
+    </header>
 
-    <!-- home section design -->
-    <section class="home" id="home">
-        <div class="home-content">
-            <h3>Hello There!</h3>
-            <h1>Adrian Dratwiński</h1>
-            <h3>And I am <span class="multiple-text"></span></h3> 
-            <p>Welcome on my site! <br>
-              Feel free to download my CV, go to my repository or to contact me. <br>
-              adrian.dratwinski@gmail.com
-            <div class="social-media">
-              <a href="https://www.linkedin.com/in/adrian-dratwiński-29b8791b5/"><i class='bx bxl-linkedin-square'></i> </a>
-              <a href="https://github.com/PackardGit"><i class='bx bxl-github'></i></a>
-              <a href="./static/cv/cv.pdf" class="download-btn"> <i class='bx bx-download'></i> </a>
-            </div>
-        </div>
-        <div class="home-img">
-            <img src = "static/images/about_me.png" alt="">
-        </div>
-    </section>
+<section class="chatme" id="chatme">
+    <div class="chatme-img">
+        <img src="static/images/about_me.png" alt="">
+    </div>
+    <div class="chatme-content">
+        <h2 class="heading">Chat <span> Me</span></h2>
+        <form class="form-inline">
+            <input type="text" class="form-control" id="nameInput" placeholder="Say Hello">
 
-    <!-- InterviewMe section design -->
-    <section class="chatme" id="chatme">
-        <div class="chatme-img">
-            <img src="static/images/about_me.png" alt="">
-        </div>
-        <div class="chatme-content">
-            <h2 class="heading">Chat <span> Me</span></h2>
-            <form class="form-inline">
-                <input type="text" class="form-control" id="nameInput" placeholder="Say Hello">
-
-                <button type="submit" class="btn">Send Message</button>
-            </form>
-            <div id="successResponse" class="text-response" role="textbox"></div>
-          </div>
-    </section>
-
-    <!-- services section design -->
-    <section class="services" id="services">
-          <h2 class="heading">My <span> Services</span></h2>
-
-            <div class="services-container">
-                <div class="services-box">
-                    <i class="bx bx-code-alt" ></i>
-                    <h3>Test Engineer</h3>
-                    <p>
-                    Several years experience as Test Engineer.
-                    </p>
-                    <a href="#" class="btn">Read More</a>
-                </div>
-                <div class="services-box">
-                  <i class='bx bxl-python' ></i>
-                  <h3>Web Developement</h3>
-                  <p>
-                  Recently I started doing some Web Developing
-                  </p>
-                  <a href="#" class="btn">Read More</a>
-              </div>
-              <div class="services-box">
-                <i class='bx bx-photo-album'></i>
-                <h3>AI</h3>
-                <p>
-                 I am AI enthusiast. Looking for opportunities to use AI in fast learning and fast coding.
-                </p>
-                <a href="#" class="btn">Read More</a>
-            </div>
-
-            </div>
-      </section>
-
-    <!-- portfolio section design -->
-    <section class="portfolio" id="portfolio">
-      <h2 class="heading">Some <span> Projects</span></h2>
-      <div class="portfolio-container">
-          <div class="portfolio-box">
-              <img src="static/images/lung_detection.png" alt="">
-              <div class="portfolio-layer">
-                  <h4>Lung Detection App</h4>
-                  <p>
-                    Detection of Lung diesease. It detects Pneumonia, Covid-19
-                    and healthy lungs. Availble as Web and Mobile App. 
-                    Chat bot is only available on Web Application.
-                    Technologies Python, Kotlin, JS, HTML, CSS: 
-                  </p>
-                  <a href="https://github.com/PackardGit/Lung-disease-detection"><i class='bx bx-link'></i></a>
-              </div>
-            </div>
-
-            <div class="portfolio-box">
-              <img src="static/images/heat_exchanger.png" alt="">
-              <div class="portfolio-layer">
-                  <h4>Heat Exchanger</h4>
-                  <p>
-                    Heat exchanger with medium recycling made in LabView and Matlab
-                  </p>
-                  <a href="https://github.com/PackardGit/Heat-exchanger-with-recycling"><i class='bx bx-link'></i></a>
-              </div>
-            </div>
-            <div class="portfolio-box">
-                <img src="static/images/mori.png" alt="">
-                <div class="portfolio-layer">
-                    <h4>MORI Platform</h4>
-                    <p>
-                      Multiplayer online games platform. 
-                      Available games: Tic-Tac-Toe, Battleships.
-                      Technologies PHP, CSS, JS, MySQL: 
-                    </p>
-                    <a href="https://github.com/PackardGit/Browswer-Game"><i class='bx bx-link'></i></a>
-                </div>
-              </div>
+            <button type="submit" class="btn">Send Message</button>
+        </form>
+        <div id="successResponse" class="text-response" role="textbox"></div>
       </div>
-    </section>
+</section>
 
-    <!-- contact section design -->
-      <section class="contact" id="contact">
-          <h2 class="heading">Contact <span>Me</span></h2>
-          <form action=#>
-              <div class="input-box">
-                  <input type="text" placeholder="Full Name">
-                  <input type="email" placeholder="Email Address">
-              </div>
-              <div class="input-box">
-                <input type="number" placeholder="Mobile Number">
-                <input type="text" placeholder="Email Subject">
-            </div>
-              <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
-              <input type="submit" value="Send Message" class="btn">
-          </form>
-
-      </section>
-
-    <!-- footer design -->
-      <footer class="footer">
-          <div class="footer-text">
-              <p>adrian.dratwinski@gmail.com</p>
-          </div>
-      </footer>
-    <!-- scroll reveal -->
-    <script src="https://unpkg.com/scrollreveal"></script>
-    <!-- typed js -->
-    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
-    <!-- custom js -->
-    <script src="static/js/script.js"></script>
-  </body>
+<script src="https://unpkg.com/scrollreveal"></script>
+<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+<script src="static/js/script.js"></script>
+</body>
 </html>
